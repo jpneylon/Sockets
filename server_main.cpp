@@ -4,7 +4,7 @@
 char message[32];
 CS_Socket *server_socket;
 
-///////////////// SOCKET OPERATIONS
+/* SOCKET OPERATIONS
         unsigned short thresh = 655;
         unsigned int compressed_size = server_socket->calculate_compressed_data_size( dose, clientData->size_terma, thresh );
 
@@ -31,7 +31,7 @@ CS_Socket *server_socket;
         }
 
         server_socket->close_new_socket();
-/////////////////////////////////
+*/
 
 
 
